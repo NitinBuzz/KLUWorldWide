@@ -4,11 +4,11 @@ const PORT = process.env.PORT || 3000;
 var app = express();
 
 app.get('/', (req, res) => {
-  res.render('<h1>Home Page</h1>');
+  res.send('<h1>Home Page</h1>');
 });
 
 app.get('/about', (req, res) => {
-  res.render('<h1>About Page</h1>');
+  res.send('<h1>About Page</h1>');
 });
 
 app.listen(PORT, () => {

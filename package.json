@@ -4,11 +4,16 @@
   "description": "Resume App with Node and React",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NitinBuzz/NitinBuzz.git"
+  },
+  "engines": {
+    "node": "8.6.0",
+    "npm": "5.4.2"
   },
   "author": "",
   "license": "ISC",
