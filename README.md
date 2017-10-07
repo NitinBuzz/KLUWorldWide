@@ -1,2 +1,2 @@
 # KLUWorldWide
-App with Node and React
+Social Platform for ex and present students of KLU
